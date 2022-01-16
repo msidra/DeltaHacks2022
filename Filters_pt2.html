@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>More Filters</title>
+<body bgcolor = "#FFF4BD">
+        <br><br>
+        <h4><button type="button"><a href = "Filters.html">Back</button> </a>
+        <center><b><font style = "Cooper", color = "#581164", size = 10> FILTERS</b></font>
+        <p><p><p>
+            <style>
+                .btn-group button {
+                  background-color: #B970C2; /* background */
+                  border: 1px solid green; /* Green border */
+                  color: black; /* black text */
+                  padding: 10px 24px; /* Some padding */
+                  cursor: pointer; /* Pointer/hand icon */
+                  width: 50%; /* Set a width if needed */
+                  display: block; /* Make the buttons appear below each other */
+                }
+                
+                .btn-group button:not(:last-child) {
+                  border-bottom: none; /* Prevent double borders */
+                }
+                
+                /* Add a background color on hover */
+                .btn-group button:hover {
+                  background-color: #831e48;
+                }
+                </style>
+                <br><br>
+                
+                <form method="post" action="/Tests/Post/"> 
+                       
+                    <font color = "#B970C2", size = 5>
+                      <input type="checkbox" name="filter" value="Halal">Halal<br>       
+                      <input type="checkbox" name="filter" value="Kosher">Kosher<br>     
+                      <input type="checkbox" name="filter" value="Non-Alcoholic ">Non - Alcoholic<br>  
+                      <input type="checkbox" name="filter" value="Vegan">Vegan<br>       
+                      <input type="checkbox" name="filter" value="Keto">Keto<br>     
+                      <input type="checkbox" name="filter" value="Low-Calorie ">Low - Calorie<br>   
+                      <input type="checkbox" name="filter" value="Vegetarian">Vegetarian<br>       
+                      <input type="checkbox" name="filter" value="Pescatarian">Pescatarian<br>     
+                      <input type="checkbox" name="filter" value="Non-Alcoholic Drinks">Non - Alcoholic Drinks<br>        
+                      <input type="checkbox" name="filter" value="Health Drinks">Health Drinks<br>       
+                      <input type="checkbox" name="filter" value="Non - Vegetarian">Non - Vegetarian<br>     
+                      <br>
+                      <input type="submit" value="Generate Recipes">
+                        </font>
+                  </form>
+                
+                </center>
+                </body>
+                </html>
+</body>
+</head>
+</html>
